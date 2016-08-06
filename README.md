@@ -1,4 +1,4 @@
-#Cocolab Experiment Game
+#Web Experiments with Server
 
 This is a framework for online experiments meant for use on Amazon's MTurk platform for data collection. It is based off of [feste's experiment template repo](https://github.com/feste/experiment_template), with an added nodejs server that allows for additional control and manipulations over the experiment. 
 
@@ -85,6 +85,7 @@ function create(){
 	player.body.collideWorldBounds = true //keep the player within the boundaries of the game
 
 	var cursors = game.input.keyboard.createCursorKeys() //tell Phaser that it will be listening for arrow key presses
+}
 ```
 
 #####Update
